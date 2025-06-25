@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            border: 2px solid black;
+            display: table;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        div {
+            margin: 10px;
+            padding: 5px;
+        }
+
+        h1 {
+            margin: 10px;
+        }
+
+        .reset {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>REGISTRATION FOR JOB APPLICANTS</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="username">Your Name: </label>
+            <input type="text" name="username" id="username" required>
+        </div>
+
+        <div>
+            <label for="password">Your Password: </label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            Select at least one interest:<br>
+
+            <input type="checkbox" name="interest" id="Technical" required>
+            <label for="Technical">Technical</label>
+            <br>
+
+            <input type="checkbox" name="interest" id="Mechanical">
+            <label for="Mechanical">Mechanical</label>
+            <br>
+
+            <input type="checkbox" name="interest" id="AI_ML">
+            <label for="AI_ML">AI/ML</label>
+            <br>
+
+            <input type="checkbox" name="interest" id="Civil">
+            <label for="Civil">Civil</label>
+        </div>
+
+
+        <div>
+            <input type="submit" value="submit">
+            <input class="reset" type="reset" value="reset">
+        </div>
+    </form>
+</body>
+
+</html>
