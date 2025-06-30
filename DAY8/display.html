@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1,.box2 {
+            display: block;
+            background-color: yellow;
+            border: 2px solid black;
+            width: 200px;
+            height: 100px;
+        }
+
+        .box2 {
+            visibility: hidden;
+        }
+
+        .box3,.box4 {
+            display: inline;
+            background-color: red;
+            border: 2px solid black;
+            width: 200px;
+            height: 100px;
+            /* display: none; */
+        }
+
+        .box5,.box6 {
+            display: inline-block;
+            background-color: aqua;
+            border: 2px solid black;
+            width: 200px;
+            height: 100px;
+            /* display: none; */
+        }
+
+        a {
+            display:inline-block;
+            padding: 10px;
+            margin: 10px;
+            font-size: 25px;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: purple;
+            text-decoration: none;
+            transition: 0.7s ease;
+        }
+
+        a:hover {
+            color:rgb(2, 69, 255);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h2>Block Boxes</h2>
+        <div class="box box1">
+            I am Box 1
+        </div>
+        <div class="box box2">
+            I am Box 2
+        </div>
+
+        <h2>Inline Boxes</h2>
+        <div class="box box3">
+            I am Box 2
+        </div>
+        <div class="box box4">
+            I am Box 4
+        </div>
+
+        <h2>Inline-Block Boxes</h2>
+        <div class="box box5">
+            I am Box 5
+        </div>
+        <div class="box box6">
+            I am Box 6
+        </div>
+    </main>
+
+    <hr>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+</body>
+
+</html>
