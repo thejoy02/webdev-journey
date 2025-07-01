@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Model</title>
+    <style>
+        .container {
+            background-color: aliceblue;
+            border: 2px solid rgb(18, 144, 255);
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            /* flex-direction: column; */
+            flex-flow: row wrap-reverse;
+            gap: 10px 10px;
+        }
+
+        .box {
+            background-color: khaki;
+            border: 2px solid rgb(255, 0, 0);
+            width: 20vh; height: 20vh;
+            text-align: center;
+
+        }
+
+        .card {
+            background-color: aliceblue;
+            border: 2px solid rgb(253, 208, 245);
+            width: 200px; height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .card h2, .card p, .card input {
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1></h1>
+        <div class="container">
+            <div class="box box1">BOX1</div>
+            <div class="box box2">BOX2</div>
+            <div class="box box3">BOX3</div>
+        </div>
+    </main>
+    <h1>Card</h1>
+    <div class="card">
+        <h2>199$/mo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, libero.</p>
+        <input type="button" value="Subscribe">
+    </div>
+</body>
+</html>
