@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky-Header</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid blue;
+            height: 180vh;
+            width: 80vw;
+            margin: 34px;
+            padding: 43px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .header {
+            background-color: aqua;
+            width: 80vh;
+            ;
+            height: 50px;
+            text-align: center;
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="header">STICKY HEADER</div>
+    </div>
+</body>
+
+</html>
