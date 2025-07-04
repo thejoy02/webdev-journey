@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Colour Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 668px) {
+            .nav {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .nav h1 {
+                font-size: 30px;
+            }
+
+            ul {
+                flex-direction: column;
+                gap: 15px;
+                padding: 10px 0;
+            }
+
+            ul li a {
+                font-size: 20px;
+            }
+
+            .main h2 {
+                font-size: 28px;
+                padding: 8px;
+            }
+
+            .content iframe {
+                height: 250px;
+            }
+
+            .main p {
+                width: 90%;
+                font-size: 16px;
+                padding: 15px;
+            }
+        }
+
+        body {
+            color: white;
+        }
+
+        :root {
+            --first-color: rgba(0, 0, 0, 1);
+            --sec-color: rgba(45, 45, 45, .5);
+            --th-color: rgb(141, 0, 160);
+            --def-pad: 10px;
+            --def-margin: 10px;
+            --def-opacity: 30%;
+        }
+
+        .nav {
+            background-color: #000000;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            margin: var(--defmargin);
+            padding: var(--defpad);
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 30px;
+            color: white;
+            transition: 0.4s ease;
+        }
+
+        .nav h1 {
+            padding-left: 10px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 55px;
+            transition: 0.3s ease-out;
+
+        }
+
+        .main {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 50px;
+            background-image: url("bhupinder_jogi.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding-top: 20px;
+            height: auto;
+            ;
+        }
+
+        .content {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content iframe {
+            width: 90%;
+            height: 400px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .main h2 {
+            font-size: 40px;
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .main p {
+            max-width: 800px;
+            width: 90%;
+            margin: 0px auto;
+            font-size: 20px;
+            line-height: 1.6;
+            text-align: justify;
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            color: rgb(124, 3, 43);
+        }
+
+        h1:hover {
+            mask-image: url(bhupinder_jogi.jpg);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <h1>JOGI FROM USA</h1>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <h2>HIS ORIGIN</h2>
+        <div class="content">
+            <iframe frameborder="0" src="https://memes.co.in/embed,982"></iframe>
+        </div>
+
+        <p>The viral video was originally captured during the Madhya Pradesh elections in 2018. It came into the spotlight as a response to BJP's claim that the state's roads were superior to America's. Bhupendra Jogi became a household name due to his candid conversation with the Lallantop team.During the interaction, Bhupendra was asked for his name and the names of places he had visited in the US. His response was simple yet unforgettable. He introduced himself as Bhupendra Jogi, and this marked the birth of an internet sensation. For years, the video remained relatively dormant, until now.
+        </p>
+
+    </div>
+</body>
+
+</html>
