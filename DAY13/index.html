@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRIDS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 2px solid black;
+            height: 50vh;
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 50px 50px 50px;
+        }
+
+        .item {
+            border: 2px solid red;
+            /* height: 50px;
+            width: 50px; */
+        }
+
+        .item1 {
+            border: 2px solid blue;
+            /* grid-row: 1/3; */
+            grid-row: 1/3;
+            /* or you can do
+            grid-row-start: 1;
+            grid-row-end: 3; */
+            grid-column: 1/4
+        }
+
+        .item2 {
+            border: 2px solid blueviolet;
+        }
+
+        .item3 {
+            border: 2px solid aqua;
+            /* grid-column: 1/3; */
+        }
+
+        .item4 {
+            border: 2px solid green;
+            grid-row: 1/3;
+            grid-column: 1/4;
+        }
+
+        .item5 {
+            border: 2px solid orange;
+        }
+        h1 {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS GRIDS</h1>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+    </div>
+</body>
+
+</html>
