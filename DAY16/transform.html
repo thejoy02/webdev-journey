@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform in CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            min-width: 90vw;
+            height: 90vh;
+            margin: 50px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .container {
+            width: 90%;
+            height: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 2px solid blue;
+            background-color: rgba(0, 255, 38, 0.474);
+            text-align: center;
+        }
+
+        .box1 {
+            transform: translateX(100px);
+        }
+
+        .box2 {
+            background-color: rgba(0, 255, 170, 0.566);
+            transform: rotate(45deg);
+        }
+
+        .box3 {
+            background-color: rgba(255, 145, 0, 0.576);
+            transform: scale(1.5);
+        }
+
+        .box4 {
+            background-color: rgba(0, 247, 255, 0.677);
+            transform: skewX(30deg);
+        }
+
+        .box5 {
+            background-color: rgba(255, 0, 195, 0.554);
+            transform: rotate(20deg) scale(1.2);
+        }
+
+        .origin {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-block: 30px;
+        }
+
+        .rotation-box {
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .square {
+            height: 100px;
+            width: 100px;
+            background-color: beige;
+            border: 2px solid brown;
+            transform-origin: top left;
+            transform: rotate(45deg);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>TRANSFORM PROPERTY</h1>
+        <div class="container">
+            <div class="box box1">
+                <p>transform: translateX(100px);</p>
+            </div>
+            <div class="box box2">
+                <p>transform: rotate(45deg);</p>
+            </div>
+            <div class="box box3">
+                <p>transform: scale(1.5);</p>
+            </div>
+            <div class="box box4">
+                <p>transform: skewX(30deg);</p>
+            </div>
+            <div class="box box5">
+                <p>transform: rotate(20deg) scale(1.2);</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="origin">
+        <h2>SQUARE ROTATION</h2>
+        <div class="rotation-box">
+            <div class="square"></div>
+        </div>
+    </div>
+</body>
+
+</html>
