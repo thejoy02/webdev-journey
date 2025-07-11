@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --prim-col: #FFFFFF;
+    --sec-col: #000000;
+    --ter-col: #00B6D1;
+    --font-col: #8B8B8B;
+}
+
+/* Utility class */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN CSS */
+
+.container {
+    width: 100%;
+    max-width: 1550px;
+    height: 100px;
+    margin-inline: auto;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img {
+    position: relative;
+}
+
+.a {
+    left: 63px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--sec-col);
+}
+
+.ul-sty {
+    gap: 35px;
+}
+
+.b-sty {
+    background-color: var(--prim-col);
+    padding: 10px 25px;
+    margin-left: 99px;
+    border: 2px solid var(--sec-col);
+    border-radius: 3px;
+    font-weight: 790;
+}
+
+.language {
+    flex-direction: row;
+    position: relative;
+    right: 55px;
+    gap: 10px;
+}
+
+.search-bar {
+    position: relative;
+    right: 100px;
+}
