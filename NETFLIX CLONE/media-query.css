@@ -1,0 +1,1104 @@
+/* 1440 PIXELS */
+@media screen and (max-width:1440px) {
+    .container {
+        min-width: 80vw;
+    }
+
+    .navbar {
+        width: 80vw;
+    }
+
+    .heading-sec {
+        width: 80vw;
+    }
+
+    .services {
+        margin: 1rem auto;
+        height: 50vh;
+        width: 80vw;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .services h1 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .show img {
+        width: 180px;
+        height: 292px;
+    }
+
+    .card {
+        height: 50vh;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box h2 {
+        font-size: 20px;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+
+    .box img {
+        width: 50px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 270px;
+        height: 280px;
+    }
+
+    .box1 img {
+        top: 30px;
+        left: 170px;
+    }
+
+    .box2 img {
+        left: 170px;
+    }
+
+    .box3 img {
+        left: 170px;
+        top: 55px;
+    }
+
+    .box4 img {
+        left: 170px;
+        top: 15px;
+    }
+
+    .ques {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .ques1,
+    .ques2,
+    .ques3,
+    .ques4,
+    .ques5,
+    .ques6 {
+        height: 54px;
+    }
+
+    button>svg {
+        width: 24px;
+    }
+
+    .foot-sec {
+        height: 60vh;
+    }
+
+    .foot-head {
+        width: 80vw;
+    }
+
+    .submit-end {
+        justify-content: center;
+    }
+}
+
+/* 1280 PIXELS */
+@media screen and (max-width:1280px) {
+    .container {
+        min-width: 80vw;
+    }
+
+    .navbar {
+        width: 80vw;
+    }
+
+    .heading-sec {
+        width: 80vw;
+    }
+
+    .heading-text h1 {
+        font-size: 3.5rem;
+        padding-inline: 160px;
+    }
+
+    .heading-text>p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 12px;
+    }
+
+    .heading-text :nth-child(3) {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .email input {
+        padding-right: 10rem;
+        padding-block: 12px;
+        padding-left: 12px;
+    }
+
+    .submit button {
+        padding: 8px 0.75rem
+    }
+
+    .services {
+        margin: 1rem auto;
+        height: 50vh;
+        width: 80vw;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .services h1 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .show img {
+        width: 180px;
+        height: 292px;
+    }
+
+    .card {
+        height: 50vh;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box h2 {
+        font-size: 20px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    .box img {
+        width: 50px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 270px;
+        height: 280px;
+    }
+
+    .box1 img {
+        top: 50px;
+        left: 150px;
+    }
+
+    .box2 img {
+        top: 20px;
+        left: 150px;
+    }
+
+    .box3 img {
+        left: 160px;
+        top: 30px;
+    }
+
+    .box4 img {
+        left: 150px;
+        top: 15px;
+    }
+
+    .ques {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .ques1,
+    .ques2,
+    .ques3,
+    .ques4,
+    .ques5,
+    .ques6 {
+        height: 54px;
+    }
+
+    button>svg {
+        width: 24px;
+    }
+
+    .foot-sec {
+        height: 60vh;
+    }
+
+    .foot-head {
+        width: 80vw;
+    }
+
+    .submit-end {
+        justify-content: center;
+    }
+
+    .email-end input {
+        padding-inline-end: 10rem;
+        padding-block: 12px;
+        padding-left: 12px;
+    }
+
+    .submit-end button {
+        padding: 8px 0.75rem;
+    }
+}
+
+/* 1024 PIXELS */
+@media screen and (max-width:1024px) {
+    .container {
+        min-width: 80vw;
+    }
+
+    .navbar {
+        width: 80vw;
+    }
+
+    .heading-sec {
+        width: 80vw;
+    }
+
+    .heading-text h1 {
+        font-size: 3rem;
+        padding-inline: 160px;
+    }
+
+    .heading-text>p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 12px;
+    }
+
+    .heading-text :nth-child(3) {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .email input {
+        padding-right: 7rem;
+        padding-block: 10px;
+        padding-left: 10px;
+    }
+
+    .submit button {
+        padding: 10px 1.45rem;
+        font-size: 18px;
+    }
+
+    .services {
+        margin: 1rem auto;
+        height: 40vh;
+        width: 80vw;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .services h1 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .show img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .card {
+        height: 50vh;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box h2 {
+        font-size: 16px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    .box img {
+        width: 50px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 270px;
+        height: 280px;
+    }
+
+    .box1 img {
+        top: 20px;
+        left: 110px;
+    }
+
+    .box2 img {
+        top: 20px;
+        left: 110px;
+    }
+
+    .box3 img {
+        left: 110px;
+        top: 30px;
+    }
+
+    .box4 img {
+        left: 100px;
+        top: -5px;
+    }
+
+    .ques {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .ques1,
+    .ques2,
+    .ques3,
+    .ques4,
+    .ques5,
+    .ques6 {
+        height: 54px;
+    }
+
+    button>svg {
+        width: 24px;
+    }
+
+    .foot-sec {
+        height: 70vh;
+    }
+
+    .foot-head {
+        width: 80vw;
+    }
+
+    .submit-end {
+        justify-content: center;
+    }
+
+    .email-end input {
+        padding-inline-end: 7rem;
+        padding-block: 10px;
+        padding-left: 10px;
+    }
+
+    .submit-end button {
+        padding: 10px .45rem;
+        font-size: 18px;
+    }
+
+    .foot-head p {
+        font-size: 12px;
+    }
+}
+
+/* 768 PIXELS */
+@media screen and (max-width:768px) {
+    .container {
+        min-width: 80vw;
+    }
+
+    .navbar {
+        width: 80vw;
+    }
+
+    .navbar img {
+        width: 100px;
+    }
+
+    .right-sec {
+        gap: 6px;
+    }
+
+    .right-sec select {
+        padding: 3px 8px;
+        font-size: 14px;
+    }
+
+    .right-sec button {
+        padding: 5px 10px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .heading-sec {
+        width: 80vw;
+    }
+
+    .heading-text h1 {
+        font-size: 2.5rem;
+        padding-inline: 85px;
+    }
+
+    .heading-text>p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .heading-text :nth-child(3) {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .email input {
+        padding-right: 10rem;
+        padding-block: 10px;
+        padding-left: 10px;
+    }
+
+    .submit {
+        flex-direction: column;
+    }
+
+    .submit button {
+        padding: 8px 1.25rem;
+        font-size: 16px;
+    }
+
+    .services {
+        margin: auto;
+        height: 40vh;
+        width: 80vw;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .services h1 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .show {
+        gap: 1rem;
+    }
+
+    .show img {
+        width: 140px;
+        height: 170px;
+    }
+
+    .card {
+        height: 80vh;
+    }
+
+    .box {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box h2 {
+        font-size: 16px;
+    }
+
+    .box p {
+        font-size: 12px;
+        padding: 16px 8px;
+    }
+
+    .box img {
+        width: 40px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 80vw;
+        height: 125px;
+    }
+
+    .box1 img {
+        top: -10px;
+        left: 520px;
+    }
+
+    .box2 img {
+        top: -10px;
+        left: 520px;
+    }
+
+    .box3 img {
+        left: 516px;
+        top: -10px;
+    }
+
+    .box4 img {
+        left: 520px;
+        top: -20px;
+    }
+
+    .ques {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .ques1,
+    .ques2,
+    .ques3,
+    .ques4,
+    .ques5,
+    .ques6 {
+        height: 54px;
+    }
+
+    button>svg {
+        width: 24px;
+    }
+
+    .foot-sec {
+        height: 70vh;
+    }
+
+    .foot-head {
+        width: 80vw;
+    }
+
+    .submit-end {
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .email-end input {
+        padding-inline-end: 13rem;
+        padding-block: 10px;
+        padding-left: 10px;
+    }
+
+    .submit-end button {
+        padding: 10px 1.5rem;
+        font-size: 18px;
+    }
+
+    .foot-head p {
+        font-size: 12px;
+    }
+
+    .a4,
+    .b4,
+    .c4,
+    .d3 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .foot-link {
+        gap: 4rem;
+    }
+
+    .foot-link a {
+        color: #cccccc;
+        font-size: 12px;
+    }
+}
+
+/* 468 PIXELS */
+@media screen and (max-width:468px) {
+    .container {
+        min-width: 90vw;
+    }
+
+    .bg {
+        height: 80vh;
+    }
+
+    .navbar {
+        width: 90vw;
+    }
+
+    .navbar img {
+        width: 89px;
+    }
+
+    .right-sec {
+        gap: 6px;
+    }
+
+    .right-sec select {
+        padding: 3px 4px;
+        font-size: 12px;
+    }
+
+    .right-sec button {
+        padding: 4px 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .heading-sec {
+        width: 80vw;
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+
+    .heading-text {
+        gap: 16px;
+    }
+
+    .heading-text h1 {
+        font-size: 2rem;
+        padding-inline: 4px
+    }
+
+    .heading-text>p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 4px;
+    }
+
+    .heading-text :nth-child(3) {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .email input {
+        padding-right: 8rem;
+        padding-block: 12px;
+        padding-left: 10px;
+    }
+
+    .submit {
+        flex-direction: column;
+    }
+
+    .submit button {
+        margin: 12px;
+        padding: 0.75rem 1.5rem;
+        font-size: 20px;
+    }
+
+    .services {
+        margin: auto;
+        height: 30vh;
+        width: 90vw;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        gap: 16px;
+    }
+
+    .services h1 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .show {
+        gap: .5rem;
+        left: 0px;
+    }
+
+    .show img {
+        width: 140px;
+        height: 170px;
+    }
+
+    .card {
+        height: 72vh;
+        gap: 16px;
+
+    }
+
+    .card h1 {
+        font-size: 1rem;
+    }
+
+    .box {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box h2 {
+        font-size: 16px;
+        padding: 0px 4px;
+    }
+
+    .box p {
+        font-size: 12px;
+        padding: 8px 4px;
+    }
+
+    .box img {
+        width: 40px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 90vw;
+        height: 125px;
+    }
+
+    .box1 img {
+        top: -10px;
+        left: 310px;
+    }
+
+    .box2 img {
+        top: -10px;
+        left: 310px;
+    }
+
+    .box3 img {
+        left: 306px;
+        top: -10px;
+    }
+
+    .box4 img {
+        left: 310px;
+        top: -5px;
+    }
+
+    .ques {
+        width: 100%;
+        height: 54vh;
+    }
+
+    .ques-sec h1 {
+        font-size: 1rem;
+        padding-bottom: 16px;
+    }
+
+    .ques-sty p {
+        font-size: 20px;
+    }
+
+    .ques1,
+    .ques2,
+    .ques3,
+    .ques4,
+    .ques5,
+    .ques6 {
+        height: 60px;
+    }
+
+    button>svg {
+        width: 25px;
+    }
+
+    .foot-sec {
+        height: 110vh;
+    }
+
+    .foot-head {
+        width: 80vw;
+        gap: 16px;
+    }
+
+    .foot-link {
+        flex-direction: column;
+    }
+
+    .submit-end {
+        justify-content: center;
+        align-items: flex-start;
+        width: 100vw;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .email-end input {
+        padding-inline-end: 10rem;
+        padding-block: 9px;
+        padding-left: 7px;
+    }
+
+    .submit-end button {
+        padding: 10px 1.5rem;
+        font-size: 18px;
+    }
+
+    .foot-head p {
+        font-size: 14px;
+    }
+
+    .a4,
+    .b4,
+    .c4,
+    .d3 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .foot-link {
+        gap: 8px;
+    }
+
+    .foot-link a {
+        color: #cccccc;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container {
+        min-width: 80vw;
+    }
+
+    .bg {
+        height: 80vh;
+    }
+
+    .navbar {
+        width: 90vw;
+    }
+
+    .navbar img {
+        width: 89px;
+    }
+
+    .right-sec {
+        gap: 6px;
+    }
+
+    .right-sec select {
+        padding: 3px 4px;
+        font-size: 12px;
+    }
+
+    .right-sec button {
+        padding: 4px 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .heading-sec {
+        width: 80vw;
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+
+    .heading-text {
+        gap: 8px;
+    }
+
+    .heading-text h1 {
+        font-size: 1.8rem;
+        padding-inline: 3px;
+    }
+
+    .heading-text>p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 4px;
+    }
+
+    .heading-text :nth-child(3) {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-inline: 20px;
+    }
+
+    .email input {
+        padding-right: 2rem;
+        padding-block: 12px;
+        padding-left: 10px;
+    }
+
+    .submit {
+        flex-direction: column;
+    }
+
+    .submit button {
+        margin: 12px;
+        padding: 0.5rem 1.5rem;
+        font-size: 20px;
+    }
+
+    .services {
+        margin: auto;
+        height: 25vh;
+        width: 80vw;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        gap: 16px;
+    }
+
+    .services h1 {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .show {
+        gap: .5rem;
+        left: 0px;
+    }
+
+    .show img {
+        width: 130px;
+        height: 160px;
+    }
+
+    .card {
+        height: 116vh;
+        gap: 8px;
+
+    }
+
+    .card h1 {
+        font-size: 1rem;
+    }
+
+    .box {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box h2 {
+        font-size: 20px;
+    }
+
+    .box p {
+        font-size: 16px;
+        padding: 8px 2px;
+        color: #cccccc;
+        font-weight: 500;
+    }
+
+    .box img {
+        width: 60px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 80vw;
+        height: 225px;
+        border-radius: 12px;
+    }
+
+    .box1 img {
+        top: 15px;
+        left: 150px;
+    }
+
+    .box2 img {
+        top: -5px;
+        left: 150px;
+    }
+
+    .box3 img {
+        left: 145px;
+        top: 20px;
+    }
+
+    .box4 img {
+        left: 150px;
+        top: -35px;
+    }
+
+    .ques {
+        width: 100%;
+        height: 54vh;
+    }
+
+    .ques-sec h1 {
+        font-size: 1rem;
+        padding-bottom: 16px;
+    }
+
+    .ques-sty p {
+        font-size: 20px;
+    }
+
+    .ques1,
+    .ques2,
+    .ques3,
+    .ques4,
+    .ques5,
+    .ques6 {
+        height: 60px;
+    }
+
+    button>svg {
+        width: 25px;
+    }
+
+    .foot-sec {
+        height: 110vh;
+    }
+
+    .foot-head {
+        width: 80vw;
+        gap: 16px;
+    }
+
+    .foot-link {
+        flex-direction: column;
+    }
+
+    .submit-end {
+        justify-content: center;
+        align-items: flex-start;
+        width: 100vw;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .email-end input {
+        padding-inline-end: 2rem;
+        padding-block: 9px;
+        padding-left: 7px;
+    }
+
+    .submit-end button {
+        padding: 10px 1.5rem;
+        font-size: 18px;
+    }
+
+    .foot-head p {
+        font-size: 14px;
+    }
+
+    .a4,
+    .b4,
+    .c4,
+    .d3 {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .foot-link {
+        gap: 8px;
+    }
+
+    .foot-link a {
+        color: #cccccc;
+        font-size: 16px;
+    }
+}

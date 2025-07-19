@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone</title>
+    <title>Netflix Clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
 </head>
 
 <body>
     <main>
         <div class="bg">
-            <section class="hero-sec container">
+            <section class="hero-sec">
                 <nav class="navbar flex">
                     <img src="assets/logo.svg" alt="Netflix-Logo">
 
@@ -25,21 +26,176 @@
                 </nav>
 
                 <div class="heading-sec flex">
-                    <h1>Unlimited movies, TV shows and more</h1>
-                    <p>Starts at ₹149. Cancel at any time.</p>
-                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                    <div class="submit container flex">
-                        <div class="email">
-                            <label for="email"></label>
-                            <input type="email" name="email" id="email" placeholder="Email address">
+                    <div class="heading-text flex ">
+                        <h1>Unlimited movies, TV shows and more</h1>
+                        <p>Starts at ₹149. Cancel at any time.</p>
+                        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                        <div class="submit flex">
+                            <div class="email">
+                                <label for="email"></label>
+                                <input type="email" name="email" id="email" placeholder="Email address">
+                            </div>
+                            <button>Get Started <span class="arrow">></span></button>
                         </div>
-                        <button>Get Started <span class="arrow">➤</span></button>
                     </div>
                 </div>
+            </section>
         </div>
+
+        <div class="curve">
+
+        </div>
+
+
+        <section class="services container flex">
+            <h1>Trending Now</h1>
+            <div class="show flex">
+                <img src="assets/asset 17.webp" 1 alt="Squid Game">
+                <img src="assets/asset 18.webp" alt="Raid 2">
+                <img src="assets/asset 19.webp" alt="The Kapil Sharma Show">
+                <img src="assets/asset 21.webp" alt="Aap Jaisa Koi">
+                <img src="assets/asset 20.webp" alt="Hit">
+            </div>
         </section>
-        </div>
-    </main>
+
+        <section class="card container flex">
+            <h1>More reasons to join</h1>
+            <div class=" box flex">
+                <div class="box box1">
+                    <h2>Enjoy on your TV</h2>
+                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                    <img src="assets/asset 7.svg" alt="">
+                </div>
+                <div class="box box2">
+                    <h2>Download your shows to watch offline</h2>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                    <img src="assets/asset 8.svg" alt="">
+                </div>
+                <div class="box box3">
+                    <h2>Watch everywhere</h2>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                    <img src="assets/asset 9.svg" alt="">
+                </div>
+                <div class="box box4">
+                    <h2>Create profiles for kids</h2>
+                    <p>Send kids on adventures with their favourite characters in a space made just for them — free with
+                        your membership.</p>
+                    <img src="assets/asset 10.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="ques-sec container">
+            <h1>Frequently Asked Questions</h1>
+            <div class="ques flex">
+                <div class="ques ques-sty ques1 flex">
+                    <p>What is Netflix?</p>
+                    <button><svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" role="img" fill="#ffffffff"
+                            viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge" aria-hidden="true"
+                            class="accordion-heading_iconStyles__199uojx2 accordion-heading_iconStyles_isOpen_false__199uojx4 default-ltr-cache-1xj76yz e164gv2o4">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                                fill="#ffffff" />
+                        </svg></button>
+                </div>
+                <div class="ques ques-sty ques2 flex">
+                    <p>How much does Netflix cost?</p>
+                    <button><svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" role="img" fill="#ffffffff"
+                            viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge" aria-hidden="true"
+                            class="accordion-heading_iconStyles__199uojx2 accordion-heading_iconStyles_isOpen_false__199uojx4 default-ltr-cache-1xj76yz e164gv2o4">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                                fill="#ffffff" />
+                        </svg></button>
+                </div>
+                <div class="ques ques-sty ques3 flex">
+                    <p>Where can I watch?</p>
+                    <button><svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" role="img" fill="#ffffffff"
+                            viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge" aria-hidden="true"
+                            class="accordion-heading_iconStyles__199uojx2 accordion-heading_iconStyles_isOpen_false__199uojx4 default-ltr-cache-1xj76yz e164gv2o4">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                                fill="#ffffff" />
+                        </svg></button>
+                </div>
+                <div class="ques ques-sty ques4 flex">
+                    <p>How do I cancel?</p>
+                    <button><svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" role="img" fill="#ffffffff"
+                            viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge" aria-hidden="true"
+                            class="accordion-heading_iconStyles__199uojx2 accordion-heading_iconStyles_isOpen_false__199uojx4 default-ltr-cache-1xj76yz e164gv2o4">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                                fill="#ffffff" />
+                        </svg></button>
+                </div>
+                <div class="ques ques-sty ques5 flex">
+                    <p>What can I watch on Netflix?</p>
+                    <button><svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" role="img" fill="#ffffffff"
+                            viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge" aria-hidden="true"
+                            class="accordion-heading_iconStyles__199uojx2 accordion-heading_iconStyles_isOpen_false__199uojx4 default-ltr-cache-1xj76yz e164gv2o4">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                                fill="#ffffff" />
+                        </svg></button>
+                </div>
+                <div class="ques ques-sty ques6 flex">
+                    <p>Is Netflix good for kids?</p>
+                    <button><svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" role="img" fill="#ffffffff"
+                            viewBox="0 0 36 36" width="36" height="36" data-icon="PlusLarge" aria-hidden="true"
+                            class="accordion-heading_iconStyles__199uojx2 accordion-heading_iconStyles_isOpen_false__199uojx4 default-ltr-cache-1xj76yz e164gv2o4">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                                fill="#ffffff" />
+                        </svg></button>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="foot-sec container flex">
+            <div class="foot-head flex">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="submit-end container flex">
+                    <div class="email-end">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Email address">
+                    </div>
+                    <button>Get Started <span class="arrow">></span></button>
+                </div>
+            </div>
+            <div class="foot-mid flex">
+                <p>Questions? Call<a href="#">000-800-919-1743</a></p>
+                <div class="foot-link flex container">
+                    <div class="a4 flex">
+                        <a href="#">FAQ</a>
+                        <a href="#">Investor Relations</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Speed Test</a>
+                    </div>
+                    <div class="b4 flex">
+                        <a href="#">Help Centre</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">Cookie Preferences</a>
+                        <a href="#">Legal Notices</a>
+                        
+                    </div>
+                    <div class="c4 flex">
+                        <a href="#">Account</a>
+                        <a href="#">Ways to Watch</a>
+                        <a href="#">Corporate Information</a>
+                        <a href="#">Only on Netflix</a>
+                    </div>
+                    <div class="d3 flex">
+                        <a href="#">Media Centre</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-end flex">
+                <select name="language" id="lang">
+                    <option value="Enlish">English</option>
+                    <option value="Hindi">हिन्दी</option>
+                </select>
+            </div>
+            <p class="end">Netflix India</p>
+            <p class="end2">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn
+                more.</a></p>
+            </footer>
+        </main>
 </body>
 
 </html>
