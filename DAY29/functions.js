@@ -1,40 +1,40 @@
-// 🟢 Functions
-// Create a function that multiplies 2 numbers.
+🟢 Functions
+Create a function that multiplies 2 numbers.
 
-// Write an arrow function to check if a number is positive.
+Write an arrow function to check if a number is positive.
 
-// What happens if you don’t return in a function?
+What happens if you don’t return in a function?
 
-// Difference between function declaration and expression?
+Difference between function declaration and expression?
 
-// Create a function that accepts a name and returns: “Hello, [name]!”
+Create a function that accepts a name and returns: “Hello, [name]!”
 
-// 1.
-// function multiply(x,y) {
-//     return(x*y);
-// }
+1.
+function multiply(x,y) {
+    return(x*y);
+}
 
-// console.log(multiply(2,5));
+console.log(multiply(2,5));
 
-// 2.
+2.
 
-// let num = (a) => {
-//     if (a > 0)
-//         console.log(`The number ${a} is positive`)
-//     else {
-//         console.log(`The number ${a} is negative`);
-//     }
-// }
-// console.log(num(-2));
+let num = (a) => {
+    if (a > 0)
+        console.log(`The number ${a} is positive`)
+    else {
+        console.log(`The number ${a} is negative`);
+    }
+}
+console.log(num(-2));
 
-// 3.
+3.
 
-// it says undefined
+it says undefined
 
-// 4.
-// I dont know these, please explain them
+4.
+I dont know these, please explain them
 
-// 5.
+5.
 
 let greet = (Name) => {
     return (`Hello, ${Name}!`)
