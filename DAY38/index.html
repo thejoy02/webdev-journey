@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event & More on DOM</title>
+</head>
+<body>
+    <div class="container warra stump ding">
+        <div class="box" style="background-color: azure;">Hey I'm a Box</div>
+        <div class="box">Hey I'm a Box</div>
+    </div>
+
+    <script>
+        // let div = document.createElement("div");
+        // div.innerHTML = "I am div inserted <b>by Aanand</b>";
+        // div.setAttribute("class","inserted");
+        // document.querySelector(".container").append(div);
+
+        let cont = document.querySelector(".container");
+        cont.insertAdjacentHTML("beforeend", "<b> Tiger ko Hindi me kya kehte hai?? SIRRRRRRRRRRRRRRRR CHEEEEEEEETAAAAAAAHHHHHHHH </b>")
+    </script>
+</body>
+</html>
