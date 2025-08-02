@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dark { background:rgb(18, 18, 18); color:white; }
+    </style>
+</head>
+<body>
+    <button onclick="changeBg()">Change Background</button><br><br>
+
+    <input type="password" id="pwd"><button onclick="togglePwd()">Show/Hide</button><br><br>
+
+    <input id="task"><button onclick="addTask()">Add</button><ul id="list"></ul><br><br>
+
+    <textarea id="msg" oninput="countChars()" maxlength="100"></textarea><p id="counter"></p><br>
+
+    <button onclick="toggleTheme()">Toggle Theme</button>
+
+    <script src="dom.js"></script>
+</body>
+</html>
