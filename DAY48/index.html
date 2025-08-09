@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Ques</title>
+</head>
+
+<body>
+    <h2>Show an alert saying "Button Clicked!" when a button is clicked.</h1>
+        <div>
+            <button onclick="alert('Button Clicked!')">Click Me</button>
+        </div>
+        <h2>When the user hovers over an image, change its border to 5px solid green, and remove it when hoverends.</h2>
+        <div>
+            <img width="300" id="myImage" src="https://cdn.pixabay.com/photo/2019/04/18/13/26/a-random-lake-4136935_1280.jpg" alt="Sample">
+        </div>
+        <h2>When the user types in an input box, show the same text in real-time inside a p tag </h2>
+        <div><input type="text" id="userInput" placeholder="Type something...">
+            <p id="liveText"></p>
+        </div>
+        <h2>On form submission, prevent the page from reloading and display the entered name in a div below</h2>
+        <div>
+            <form id="nameForm">
+                <input type="text" id="nameInput" placeholder="Enter your name">
+                <button type="submit">Submit</button>
+            </form>
+            <div id="output"></div>
+        </div>
+        <h2>Dark mode toggle button.</h2>
+        <div>
+            <button id="darkModeBtn">Toggle Dark Mode</button>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
